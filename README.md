@@ -134,18 +134,17 @@ ONNX ──[WSL2 x86_64 + rknn-toolkit2 2.3.2]──> .rknn (INT8)
 
 ```
 .
-├── README.md                  本文件
-├── NPU/
-│   ├── 本板实操.md             部署与性能压榨全过程记录（含逐节可行性核验）
-│   ├── 线程数饱和点.md          饱和点实验的方案、原始结论与判读
-│   └── 上游issue-存档.md        提交至上游的测量报告存档
-├── scripts/
-│   ├── npu-bench/             基准测试与压测（含自写 C++ 零拷贝）
-│   ├── rknn-convert/          ONNX → RKNN 转换与校验
-│   ├── adbd/                  自编 adbd 与 USB gadget
-│   └── board-survey/          板级硬件体检
-├── WSL/README.md              WSL2 转换环境搭建记录
-├── data/bench-raw-20260915/   原始实测数据（128 个文件）
+├── README.md                     本文件
+├── scripts/                      本次压榨用到的全部代码
+│   ├── npu-bench/                基准测试与压榨（含自写 C++ 零拷贝，18 个）
+│   └── rknn-convert/             ONNX → RKNN 转换、校验与算子分析（8 个）
+├── models/                       模型权重与测试素材（47 MB）
+├── data/bench-raw-20260915/      原始实测数据（128 个文件）
+├── NPU/                          过程记录
+│   ├── 本板实操.md                部署与性能压榨记录（含逐节可行性核验）
+│   ├── 线程数饱和点.md             饱和点实验的方案、结论与判读
+│   └── 上游issue-存档.md           提交至上游的测量报告存档
+├── WSL/README.md                 WSL2 转换环境搭建记录
 └── .gitignore
 ```
 
@@ -185,6 +184,13 @@ ONNX ──[WSL2 x86_64 + rknn-toolkit2 2.3.2]──> .rknn (INT8)
 > 同时采样器未被终止，实际采集约 29 分钟。确认实验已加入开跑前显式清理。
 
 ## 复现
+
+**前置**：把 `models/` 里的模型与测试图拷到板端脚本默认读取的位置（也可改脚本开头的常量）。
+
+| 模型 | 板端路径 |
+|---|---|
+| `yolov5s_relu.rknn` + `bus.jpg` | `~/rknn/models/` |
+| `resnet18_for_rk3588.rknn` + `space_shuttle_224.jpg` | `/tmp/nputest/` |
 
 ```bash
 # ① 锁频（必须先做，否则数据不可比）
