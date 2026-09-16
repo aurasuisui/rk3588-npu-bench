@@ -1,0 +1,29 @@
+开始: 2026-09-15T10:12:17+08:00
+模型: /home/linaro/rknn/models/resnet18/resnet18_for_rk3588.rknn
+图片: /home/linaro/rknn/models/resnet18/space_shuttle_224.jpg   pass_through=0
+预热 5s / 计时 15s / 冷却 10s / 1 轮交错 / 线程 3,6,9,12,18,24
+=== round 1  threads=3  10:12:18 ===
+RESULT threads=3 warmup=5 seconds=15 frames=11160 elapsed=15.000 fps=744.00
+CHECKSUM out0_size=1000 out0_sum=-70014 out0_nz=1000
+    温度: 29615
+=== round 1  threads=6  10:12:49 ===
+RESULT threads=6 warmup=5 seconds=15 frames=11413 elapsed=15.000 fps=760.86
+CHECKSUM out0_size=1000 out0_sum=-70014 out0_nz=1000
+    温度: 29615
+=== round 1  threads=9  10:13:20 ===
+RESULT threads=9 warmup=5 seconds=15 frames=11390 elapsed=15.000 fps=759.33
+CHECKSUM out0_size=1000 out0_sum=-70014 out0_nz=1000
+    温度: 29615
+=== round 1  threads=12  10:13:52 ===
+RESULT threads=12 warmup=5 seconds=15 frames=11367 elapsed=15.000 fps=757.80
+CHECKSUM out0_size=1000 out0_sum=-70014 out0_nz=1000
+    温度: 29615
+=== round 1  threads=18  10:14:23 ===
+RESULT threads=18 warmup=5 seconds=15 frames=11321 elapsed=15.000 fps=754.73
+CHECKSUM out0_size=1000 out0_sum=-70014 out0_nz=1000
+    温度: 29615
+=== round 1  threads=24  10:14:54 ===
+RESULT threads=24 warmup=5 seconds=15 frames=11301 elapsed=15.000 fps=753.40
+CHECKSUM out0_size=1000 out0_sum=-70014 out0_nz=1000
+    温度: 29615
+结束: 2026-09-15T10:15:25+08:00

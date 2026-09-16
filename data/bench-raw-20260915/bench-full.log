@@ -1,0 +1,104 @@
+开始: 2026-09-15T09:12:32+08:00
+预热 5s / 计时 30s / 冷却 10s / 5 轮交错
+配置: A=3(1/核) B=6(2/核) C=9(3/核) D=12(4/核) E=8(复刻上游)
+=== round 1  threads=3 (t1)  09:12:33 ===
+RESULT threads=3 warmup=5 seconds=30 frames=4280 elapsed=30.000 fps=142.67
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 29615  NPU: 1000000000
+=== round 1  threads=6 (t2)  09:13:20 ===
+RESULT threads=6 warmup=5 seconds=30 frames=5304 elapsed=30.000 fps=176.80
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 29615  NPU: 1000000000
+=== round 1  threads=9 (t3)  09:14:07 ===
+RESULT threads=9 warmup=5 seconds=30 frames=5309 elapsed=30.000 fps=176.97
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 1  threads=12 (t4)  09:14:53 ===
+RESULT threads=12 warmup=5 seconds=30 frames=5304 elapsed=30.000 fps=176.80
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 29615  NPU: 1000000000
+=== round 1  threads=8 (tup)  09:15:40 ===
+RESULT threads=8 warmup=5 seconds=30 frames=5317 elapsed=30.000 fps=177.23
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 2  threads=3 (t1)  09:16:26 ===
+RESULT threads=3 warmup=5 seconds=30 frames=5208 elapsed=30.000 fps=173.60
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 2  threads=6 (t2)  09:17:12 ===
+RESULT threads=6 warmup=5 seconds=30 frames=5327 elapsed=30.000 fps=177.57
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 2  threads=9 (t3)  09:17:59 ===
+RESULT threads=9 warmup=5 seconds=30 frames=5310 elapsed=30.000 fps=177.00
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 2  threads=12 (t4)  09:18:45 ===
+RESULT threads=12 warmup=5 seconds=30 frames=5306 elapsed=30.000 fps=176.87
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 2  threads=8 (tup)  09:19:32 ===
+RESULT threads=8 warmup=5 seconds=30 frames=5321 elapsed=30.000 fps=177.37
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 3  threads=3 (t1)  09:20:18 ===
+RESULT threads=3 warmup=5 seconds=30 frames=5207 elapsed=30.000 fps=173.57
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 3  threads=6 (t2)  09:21:05 ===
+RESULT threads=6 warmup=5 seconds=30 frames=5315 elapsed=30.000 fps=177.17
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 3  threads=9 (t3)  09:21:51 ===
+RESULT threads=9 warmup=5 seconds=30 frames=5315 elapsed=30.000 fps=177.17
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 3  threads=12 (t4)  09:22:38 ===
+RESULT threads=12 warmup=5 seconds=30 frames=5309 elapsed=30.000 fps=176.97
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 31461  NPU: 1000000000
+=== round 3  threads=8 (tup)  09:23:24 ===
+RESULT threads=8 warmup=5 seconds=30 frames=5320 elapsed=30.000 fps=177.33
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 4  threads=3 (t1)  09:24:11 ===
+RESULT threads=3 warmup=5 seconds=30 frames=5203 elapsed=30.000 fps=173.43
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 4  threads=6 (t2)  09:24:57 ===
+RESULT threads=6 warmup=5 seconds=30 frames=5327 elapsed=30.000 fps=177.57
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 4  threads=9 (t3)  09:25:44 ===
+RESULT threads=9 warmup=5 seconds=30 frames=5313 elapsed=30.000 fps=177.10
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 4  threads=12 (t4)  09:26:30 ===
+RESULT threads=12 warmup=5 seconds=30 frames=5307 elapsed=30.000 fps=176.90
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 4  threads=8 (tup)  09:27:17 ===
+RESULT threads=8 warmup=5 seconds=30 frames=5320 elapsed=30.000 fps=177.33
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 5  threads=3 (t1)  09:28:03 ===
+RESULT threads=3 warmup=5 seconds=30 frames=5211 elapsed=30.000 fps=173.70
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 5  threads=6 (t2)  09:28:50 ===
+RESULT threads=6 warmup=5 seconds=30 frames=5309 elapsed=30.000 fps=176.97
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 5  threads=9 (t3)  09:29:36 ===
+RESULT threads=9 warmup=5 seconds=30 frames=5321 elapsed=30.000 fps=177.37
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 31461  NPU: 1000000000
+=== round 5  threads=12 (t4)  09:30:23 ===
+RESULT threads=12 warmup=5 seconds=30 frames=5303 elapsed=30.000 fps=176.77
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+=== round 5  threads=8 (tup)  09:31:09 ===
+RESULT threads=8 warmup=5 seconds=30 frames=5320 elapsed=30.000 fps=177.33
+CHECKSUM out0_size=1632000 out0_sum=-193760164 out0_nz=1630982 out1_size=408000 out1_sum=-48731171 out1_nz=407753 out2_size=102000 out2_sum=-12269198 out2_nz=101960
+    温度: 30538  NPU: 1000000000
+结束: 2026-09-15T09:31:55+08:00

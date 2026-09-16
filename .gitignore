@@ -1,0 +1,19 @@
+# ── 大件：厂商固件 / SDK / 模型中转，均不可再生价值低且体积巨大 ──
+RK3588/
+RKNN-SDK/
+Transmission/
+
+# ── 含真实网络信息（内网拓扑、公网 SSH 入口、账号），仅本地保留 ──
+topology.md
+板子手册.md
+
+# ── 第三方材料，不转载（版权） ──
+NPU/RK3588-NPU-技术文档.md
+NPU/_archive/
+
+# ── 压缩包与临时产物 ──
+*.rar
+*.zip
+*.log.bak
+Thumbs.db
+desktop.ini
